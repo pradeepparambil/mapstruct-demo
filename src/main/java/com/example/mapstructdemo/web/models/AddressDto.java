@@ -7,7 +7,7 @@ import lombok.*;
 @Setter
 @NoArgsConstructor
 @AllArgsConstructor
-public class AddressDto {
+public class AddressDto extends BaseModel{
     private String street;
     private String stateOrProvince;
 }
